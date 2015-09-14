@@ -10,8 +10,8 @@
     <title>速聘牛×工友成长计划</title>
     <script type="text/javascript" src="http://j1.58cdn.com.cn/crop/zt/sp/pugong/zepto.min.js"></script>
     <script src="http://j1.58cdn.com.cn/crop/zt/sp/pugong/jweixin-1.0.0.js"></script>
-    <link rel="stylesheet" type="text/css" href="http://c.58cdn.com.cn/crop/zt/sp/pugong/zngy.css?v=20150911">
-    <!--<link rel="stylesheet" type="text/css" href="zngy-bak.css">-->
+    <!--<link rel="stylesheet" type="text/css" href="http://c.58cdn.com.cn/crop/zt/sp/pugong/zngy.css?v=20150911">-->
+    <link rel="stylesheet" type="text/css" href="stylesheets/zngy.css">
 
     <script type="text/javascript">
 
@@ -19,11 +19,8 @@
             var setRem=function () {
                 var clientWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth,
                         fontSize = 30;
-//                alert(clientWidth);
-//                console.log(clientWidth);
                 var nowRem = clientWidth*fontSize / 640;
-//                document.getElementsByTagName('html')[0].style.fontSize = nowRem + 'px';
-                $("html").css("font-size", nowRem + "px")
+                $("html").css("font-size", nowRem + "px");
             };
             onresize = setRem;
             setRem();
@@ -121,6 +118,9 @@
                 <dt>6.</dt><dd>本活动最终解释权归58速聘所有</dd>
             </dl>
         </div>
+    </div>
+    <div>
+        <img src="images/urlCode.jpg">
     </div>
 </div>
 
