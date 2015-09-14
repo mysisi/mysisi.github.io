@@ -15,16 +15,6 @@
 
     <script type="text/javascript">
 
-        $(function(){
-            var setRem=function () {
-                var clientWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth,
-                        fontSize = 30;
-                var nowRem = clientWidth*fontSize / 640;
-                $("html").css("font-size", nowRem + "px");
-            };
-            onresize = setRem;
-            setRem();
-        });
 
     </script>
 </head>
@@ -144,8 +134,8 @@
 <div class="blackmask" id="blackmask">
     <div class="share"><span class="share-icon"></span></div>
 </div>
-<script src="http://j1.58cdn.com.cn/crop/zt/sp/pugong/zngy.js"></script>
-<!--<script src="zngy-bak.js"></script>-->
+<!--<script src="http://j1.58cdn.com.cn/crop/zt/sp/pugong/zngy.js"></script>-->
+<script src="javascripts/zngy.js"></script>
 <!--基本统计代码begin-->
 <script type="text/javascript">
     var _trackURL = "{'cate':'9224','area':' ','pagetype':'special','page':'sppgxx'}";
